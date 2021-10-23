@@ -1,0 +1,8 @@
+print("A conversation between a vendor and a buyer.")
+print("Vendor: How much money do you have? ")
+money_str = input("Buyer: ")
+print("Buyer: How much is an apple? ")
+price_str = input("Vendor: ")
+money = int(money_str)
+price = int(price_str)
+print("Vendor: You can buy " + str(money//price) + " apples and your change is " + str(money%price) + " peso/s.")
